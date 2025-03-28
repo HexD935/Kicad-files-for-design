@@ -9485,12 +9485,6 @@
 		(uuid "5f04f59c-d0a2-4ba4-8802-0d2ccc3efea7")
 	)
 	(junction
-		(at 74.93 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63286129-7895-4f91-bcbd-568a6f5ec613")
-	)
-	(junction
 		(at 72.39 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9531,6 +9525,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f73f0b8-e2d5-4da2-8d1e-901ae8fb468a")
+	)
+	(junction
+		(at 74.93 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f93aedd-6dac-45a0-aff9-66ef2c5a7ff9")
 	)
 	(junction
 		(at 118.11 107.95)
@@ -9702,6 +9702,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 33.02) (xy 237.49 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03707240-3080-4c0c-8712-0d4e4b856ec5")
+	)
+	(wire
+		(pts
 			(xy 64.77 118.11) (xy 64.77 105.41)
 		)
 		(stroke
@@ -9782,7 +9792,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 102.87) (xy 87.63 105.41)
+			(xy 86.36 102.87) (xy 86.36 107.95)
 		)
 		(stroke
 			(width 0)
@@ -10072,16 +10082,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 105.41) (xy 74.93 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3482a547-c865-4d76-9f77-734efa08cd71")
-	)
-	(wire
-		(pts
 			(xy 252.73 36.83) (xy 252.73 45.72)
 		)
 		(stroke
@@ -10362,6 +10362,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 102.87) (xy 87.63 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568c0ebd-4484-4e31-a46d-317500827666")
+	)
+	(wire
+		(pts
 			(xy 78.74 153.67) (xy 78.74 158.75)
 		)
 		(stroke
@@ -10549,6 +10559,16 @@
 			(type default)
 		)
 		(uuid "6cbefc2b-bf9e-4505-8f72-a08461d1e042")
+	)
+	(wire
+		(pts
+			(xy 78.74 104.14) (xy 74.93 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d53e6a3-835f-4e9f-92e2-32342b62c5a9")
 	)
 	(wire
 		(pts
@@ -10862,6 +10882,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 104.14) (xy 74.93 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d8ba794-50db-4356-a08a-cc31752191e0")
+	)
+	(wire
+		(pts
 			(xy 147.32 52.07) (xy 149.86 52.07)
 		)
 		(stroke
@@ -11062,7 +11092,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 67.31) (xy 73.66 62.23)
+			(xy 73.66 62.23) (xy 73.66 67.31)
 		)
 		(stroke
 			(width 0)
@@ -11332,16 +11362,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 105.41) (xy 80.01 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc05ff14-a9d7-46bb-a448-56b367c7a8d0")
-	)
-	(wire
-		(pts
 			(xy 120.65 107.95) (xy 120.65 110.49)
 		)
 		(stroke
@@ -11369,6 +11389,16 @@
 			(type default)
 		)
 		(uuid "cf7aa3c6-fdf8-4636-86e4-6aaeba6a7ccc")
+	)
+	(wire
+		(pts
+			(xy 78.74 107.95) (xy 78.74 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc01241-3be5-4fd5-b4e2-19520bcea81d")
 	)
 	(wire
 		(pts
@@ -11472,7 +11502,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 97.79) (xy 74.93 105.41)
+			(xy 74.93 97.79) (xy 74.93 104.14)
 		)
 		(stroke
 			(width 0)
@@ -11609,16 +11639,6 @@
 			(type default)
 		)
 		(uuid "e1264c4a-57a1-4a9f-9b7b-893888e7be19")
-	)
-	(wire
-		(pts
-			(xy 237.49 33.02) (xy 237.49 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e19f1690-550b-47f1-9b01-6d53a336de9c")
 	)
 	(wire
 		(pts
@@ -12000,6 +12020,16 @@
 		)
 		(uuid "ff4a2637-c69d-4cf5-859a-bb3c7f9cbb66")
 	)
+	(label "CTRL_EXT_LOAD1 "
+		(at 237.49 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01588582-e0d7-4790-a406-c9b3b4bd78ae")
+	)
 	(label "MOTOR4_CTRL2"
 		(at 119.38 176.53 180)
 		(effects
@@ -12110,7 +12140,7 @@
 		)
 		(uuid "29ac55b2-324f-4417-9388-5996b1bfd596")
 	)
-	(label "load"
+	(label "BAT-"
 		(at 86.36 16.51 180)
 		(effects
 			(font
@@ -12120,13 +12150,13 @@
 		)
 		(uuid "2daf536c-cd14-4dae-81af-4cd86c210bef")
 	)
-	(label "LOAD2"
-		(at 240.03 76.2 0)
+	(label "CTRL_EXT_LOAD2"
+		(at 240.03 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2fcf641b-b8a5-422e-a9da-785374c97adc")
 	)
@@ -12360,6 +12390,16 @@
 		)
 		(uuid "74ca2abf-ffdb-4a8a-ad3a-09bed429713c")
 	)
+	(label "3V3 Out"
+		(at 73.66 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "770a64e9-efc8-41dc-987c-f2017e25735b")
+	)
 	(label "Motor4_B_OUT"
 		(at 33.02 143.51 180)
 		(effects
@@ -12380,7 +12420,7 @@
 		)
 		(uuid "921e74b7-0e1d-46d0-b332-aacc7c9355e7")
 	)
-	(label "Battery"
+	(label "BAT+"
 		(at 92.71 43.18 0)
 		(effects
 			(font
@@ -12520,16 +12560,6 @@
 		)
 		(uuid "c0758b75-b88d-4a19-9cef-97d6798a6839")
 	)
-	(label "5v,3v3 supply"
-		(at 73.66 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c2a6f9ca-006b-4b19-997f-82de31beb42c")
-	)
 	(label "MOTOR3_CTRL1"
 		(at 71.12 179.07 180)
 		(effects
@@ -12629,16 +12659,6 @@
 			(justify right bottom)
 		)
 		(uuid "ee984075-9db5-46ad-8917-032eafaa1a7f")
-	)
-	(label "LOAD1"
-		(at 237.49 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0dda03d-c96d-47fb-adb7-d91dff33d1c5")
 	)
 	(label "MOTOR2_CTRL1"
 		(at 45.72 140.97 0)
@@ -23417,16 +23437,15 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
-		(at 83.82 105.41 90)
+		(at 82.55 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fb159fae-d47f-47c2-8b72-b09e3f464336")
 		(property "Reference" "C14"
-			(at 83.82 96.52 90)
+			(at 79.756 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23434,7 +23453,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 83.82 99.06 90)
+			(at 82.296 105.664 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -23442,7 +23461,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 83.82 107.188 90)
+			(at 82.55 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23451,7 +23470,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 83.82 105.41 0)
+			(at 82.55 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23460,7 +23479,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 83.82 105.41 0)
+			(at 82.55 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23469,7 +23488,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 83.82 105.41 0)
+			(at 82.55 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23478,7 +23497,7 @@
 			)
 		)
 		(property "Stock" "56668771"
-			(at 83.82 105.41 0)
+			(at 82.55 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23487,7 +23506,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 83.82 105.41 0)
+			(at 82.55 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23496,7 +23515,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 83.82 105.41 0)
+			(at 82.55 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23505,7 +23524,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 83.82 105.41 0)
+			(at 82.55 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23514,7 +23533,7 @@
 			)
 		)
 		(property "Attrition Qty" "6"
-			(at 83.82 105.41 0)
+			(at 82.55 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23523,7 +23542,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 83.82 105.41 0)
+			(at 82.55 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23532,7 +23551,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 83.82 105.41 0)
+			(at 82.55 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23541,7 +23560,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 83.82 105.41 0)
+			(at 82.55 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23550,7 +23569,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 83.82 105.41 0)
+			(at 82.55 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23559,7 +23578,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 83.82 101.6 90)
+			(at 82.55 104.14 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -23567,7 +23586,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 83.82 105.41 0)
+			(at 82.55 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23576,7 +23595,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 83.82 105.41 0)
+			(at 82.55 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23585,7 +23604,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 83.82 105.41 0)
+			(at 82.55 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
