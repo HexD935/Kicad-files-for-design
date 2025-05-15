@@ -1,6 +1,6 @@
 This is a repository for the design files of Jonathan Cohn and Simamkele Shologu's EEE3088F power subsystem.
 _______________________________________________________________________________________________________
-Problem Description
+Problem Description:
 _______________________________________________________________________________________________________
 The goal is to create a robot that can solve a maze without external interference. This robot is known
 as a Micro-Mouse(MM) and has become a somewhat infamous engineering example, with many trying
@@ -12,12 +12,12 @@ currents and voltages to the required systems. As such the sensing, processor, a
 already been designed. The power system will need to interface with the motherboard that will connect
 the rest of the subsystems and power the entire MM.
 _______________________________________________________________________________________________________
-Files included
+Files Included:
 _______________________________________________________________________________________________________
 The KICAD design files are included in this repo which is the schematic and PCB files. There are also the 
 history of edits et. 
 _______________________________________________________________________________________________________
-Usage
+Usage:
 _______________________________________________________________________________________________________
 These files can be downloaded as a ZIP file which will need to be extracted into a local file. 
                        !!!!!THIS CAN ONLY BE RUN IN KICAD 9!!!!!!
